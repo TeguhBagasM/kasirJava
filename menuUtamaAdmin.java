@@ -1,4 +1,4 @@
-package appWarung;
+package kasir;
 
 import java.sql.*;
 import java.awt.*;

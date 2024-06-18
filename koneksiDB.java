@@ -1,4 +1,4 @@
-package appWarung;
+package kasir;
 
 import java.sql.*;
 import javax.swing.JOptionPane;
@@ -13,7 +13,7 @@ public class koneksiDB {
             
             try {
                 
-                String url = "jdbc:mysql://localhost/appWarung";
+                String url = "jdbc:mysql://localhost/kasir";
                 String user = "root";
                 String password = "";
                 DriverManager.registerDriver(new com.mysql.jdbc.Driver());
